@@ -47,6 +47,45 @@ const Home = () => {
           #HEREFORYOU #HERETOSTAY
         </p>
       </div>
+      <div className="third-sec">
+        <div className="third-text-sec">
+          <p>
+            YOUR BODY & YOUR FITNESS REQUIREMENTS ARE UNIQUE.
+            <br />
+            YOUR PERSONAL TRAINING SHOULD REFLECT THAT!
+          </p>
+          <h1>
+            CERTIFIED PERSONAL
+            <br />
+            TRAINERS
+          </h1>
+          <p className="personal-trainer-desc">
+            Our <b>internationally certified gym</b> trainers help accomplish
+            your
+            <br />
+            fitness and weight loss goals, quicker. They aid in guiding you
+            <br /> through a balanced combination of
+            <b>
+              cardio, aerobic exercise,
+              <br /> strength,
+            </b>
+            and <b>weight training</b> with the help of the latest training
+            <br />
+            techniques, technology, and high-end fitness equipment. Our
+            <br />
+            personal gym trainers help you turn the <b>IMPOSSIBLE</b> to
+            <br />
+            <b>I’M’POSSIBLE.</b>
+          </p>
+          <button>BOOK A FREE PT SESSION</button>
+        </div>
+        <div className="third-img-holder">
+          <img
+            src="https://wavesgym.com/wp-content/uploads/elementor/thumbs/WavesGym1-prllb1g3r4gd7phsw99uiz7czy7nq2mlh7sir7fif4.jpg"
+            alt="gym-trainer"
+          />
+        </div>
+      </div>
     </div>
   );
 };

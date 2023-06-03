@@ -88,3 +88,82 @@ select {
   border: none;
   border-radius: 5px;
 }
+
+.third-sec {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding: 4rem 0 8rem 0;
+}
+
+.third-text-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.third-text-sec p {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.third-text-sec h1 {
+  color: red;
+  font-size: 3rem;
+  font-style: italic;
+  -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
+  -moz-transform: scale(1, 1.5); /* Firefox */
+  -ms-transform: scale(1, 1.5); /* IE 9 */
+  -o-transform: scale(1, 1.5); /* Opera */
+  transform: scale(1, 1.5); /* W3C */
+  letter-spacing: -0.1rem;
+  line-height: 2.4rem;
+  padding: 1rem 0;
+}
+
+.third-text-sec .personal-trainer-desc {
+  font-size: 1.1rem;
+  letter-spacing: 0;
+}
+
+.third-text-sec button {
+  background-color: red;
+  color: white;
+
+  border: solid 1px red;
+  padding: 0.25rem 1rem;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 900;
+  transform: scale(1, 1.4); /* W3C */
+  border-radius: 5px;
+  transition: all ease-in-out 300ms;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.third-text-sec button:hover {
+  background-color: white;
+  color: black;
+}
+
+.third-img-holder {
+  height: 400px;
+  width: 300px;
+  transform: skewX(-4deg);
+  border-radius: 10px;
+}
+
+.third-img-holder img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
+}
